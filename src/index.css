@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img{
+    vertical-align: middle;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul,ol,li{
+    list-style-type: none;
+  }
+  body{
+    background-color: #4EAC6D;
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+}
+@layer components {
+  input:focus {
+    outline: none;
+   
+  }
+  .inputfield{
+    border: 1px solid #EAEAF1;
+  }
+ .icons{
+   color: purple;
+ }
+}
